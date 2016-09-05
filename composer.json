@@ -1,0 +1,20 @@
+{
+    "name": "apollo16/core-database",
+    "description": "apollo16 database enhancement suites",
+    "require": {
+        "apollo16/core-contracts": "1.0.*",
+        "illuminate/database": "5.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Apollo16\\Core\\Database": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
